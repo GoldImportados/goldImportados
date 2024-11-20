@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Links Úteis</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #000; /* Fundo preto */
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .profile {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .profile img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      margin-bottom: 10px;
+    }
+
+    .profile h1 {
+      font-size: 20px;
+      margin: 5px 0;
+    }
+
+    .profile p {
+      font-size: 16px;
+      color: #ccc;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      width: 90%;
+      max-width: 450px;
+    }
+
+    .button {
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start; /* Alinha à esquerda */
+      padding: 10px 30px; /* Altura e comprimento do botão ajustados */
+      background-color: #FFD700; /* Fundo amarelo */
+      border-radius: 36px;
+      color: black; /* Texto preto */
+      font-size: 18px; /* Texto maior */
+      font-weight: normal; /* Removido o bold */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      transition: background-color 0.3s ease, transform 0.2s;
+    }
+
+    .button:hover {
+      background-color: #FFC300; /* Amarelo mais escuro ao passar o mouse */
+      transform: translateY(-2px);
+    }
+
+    .button img {
+      width: 50px; /* Ícone maior */
+      height: 50px;
+      margin-right: 15px;
+      border-radius: 50%;
+    }
+
+    footer {
+      margin-top: 20px;
+      color: #888;
+      font-size: 14px;
+    }
+
+    .profile p strong {
+      font-weight: bold; /* Coloca o bold apenas na frase "Links úteis:" */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="profile">
+    <img src="logoPerfil.JPG" alt="Foto de Perfil">
+    <h1>Gold Importados</h1>
+    <p><strong>Links úteis:</strong></p> <!-- Bold na frase "Links úteis:" -->
+  </div>
+
+  <div class="links">
+    <a href="https://w.app/goldcomerce" class="button">
+      <img src="logoPerfil.JPG" alt="WhatsApp">
+      Compre no WhatsApp
+    </a>
+    <a href="https://w.app/goldcomerce" class="button">
+      <img src="logoPerfil.JPG" alt="Comunidade">
+      Nossa Comunidade
+    </a>
+  </div>
+</body>
+</html>
